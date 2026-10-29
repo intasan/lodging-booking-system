@@ -1,0 +1,12 @@
+✔ booking computes server price and blocks overlap, allows adjacent stays (50.247105ms)
+✔ cancellation restores availability and session ownership is enforced (14.832515ms)
+✔ invalid dates, capacity, nonexistent room and long stay rejected (15.095764ms)
+✔ search filters capacity and reports booked dates from database (8.184254ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 165.445265
