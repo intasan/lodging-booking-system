@@ -1,0 +1,26 @@
+{
+  "repository": "intasan/lodging-booking-system",
+  "source_commit": "5d90e6b199168e31cd0f2b4f80031857b78a3310",
+  "inspected_at": "2026-10-30T17:50:43.977319+00:00",
+  "tracked_file_count": 30,
+  "checks": [
+    {
+      "file": "public/app.js",
+      "check": "JavaScript syntax only",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "server.js",
+      "check": "JavaScript syntax only",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "tests/booking.test.js",
+      "check": "JavaScript syntax only",
+      "ok": true,
+      "error": ""
+    }
+  ]
+}

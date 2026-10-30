@@ -1,0 +1,20 @@
+UNIT TESTS: explicitly isolated in-memory fixtures; not real business data. No runtime seed catalog.
+
+> lodging-booking-system@2.0.0 test
+> node --test tests/*.test.js
+
+✔ booking computes server price and blocks overlap, allows adjacent stays (55.105651ms)
+✔ cancellation restores availability and session ownership is enforced (15.221775ms)
+✔ invalid dates, capacity, nonexistent room and long stay rejected (16.221609ms)
+✔ search filters capacity and reports booked dates from database (7.356252ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 185.574607
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+exit_code=0
