@@ -1,0 +1,25 @@
+erDiagram
+  ROOMS |o--o{ BOOKINGS : references
+  SESSIONS |o--o{ BOOKINGS : references
+  ROOMS {
+    TEXT id PK
+    TEXT name 
+    TEXT kind 
+    INTEGER price 
+    INTEGER capacity 
+    TEXT description 
+  }
+  SESSIONS {
+    TEXT token PK
+  }
+  BOOKINGS {
+    TEXT id PK
+    TEXT session FK
+    TEXT room FK
+    TEXT checkin 
+    TEXT checkout 
+    INTEGER guests 
+    INTEGER total 
+    TEXT status 
+    TEXT created_at 
+  }

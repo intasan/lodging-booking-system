@@ -59,3 +59,9 @@ Browser cancellation was also exercised: Garden Studio returned to available and
 Local portfolio application, no external hotel integration, payment, account login, staff admin or public deployment. Anonymous session cookies have no cross-device recovery; sessions do not expire automatically. No rate limiting or spam prevention for unattended public use. Desktop browser workflow exercised; mobile and complete accessibility verification remain outstanding. Never use real guest information in this version.
 
 See [source provenance](SOURCE_STATUS.md) and [acceptance checks](ACCEPTANCE.md).
+
+## เอกสารวิเคราะห์ระบบ
+
+[Requirement และเอกสารออกแบบระบบ](docs/analysis/README.md) · [HTML ฉบับอ่าน](docs/analysis/analysis.html) · [SVG และ Mermaid ที่แก้ไขได้](docs/analysis/diagrams/)
+
+ชุดเอกสารจัดทำใหม่จาก source baseline วันที่ 30 ตุลาคม 2026 มี Functional Requirements, Business Rules, Context Diagram, DFD, Workflow, Data Model, Data Dictionary และ UAT traceability แยกสถานะที่พบในโค้ดออกจากสิ่งที่ผ่านการทดสอบและสิ่งที่ยังต้องยืนยันกับผู้ใช้ ไม่ใช่บันทึกสัมภาษณ์หรือเอกสารรับรองย้อนหลัง

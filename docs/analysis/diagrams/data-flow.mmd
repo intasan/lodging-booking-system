@@ -1,0 +1,16 @@
+flowchart TD
+  N0["ผู้จอง"]
+  N1["1.0 Search"]
+  N2["D1 Rooms + D2 Bookings"]
+  N3["2.0 Booking"]
+  N4["D2 Bookings Sessions"]
+  N0 -->|"D01 checkin checkout guests kind"| N1
+  N1 -->|"รายการห้อง available nights total"| N0
+  N1 -->|"D02 อ่าน capacity ราคา และ confirmed overlaps"| N2
+  N2 -->|"ห้องและรายการที่ทับช่วงวัน"| N1
+  N0 -->|"D03 room id วันที่และจำนวนคน"| N3
+  N3 -->|"booking confirmed หรือ 400/409"| N0
+  N3 -->|"D04 ตรวจเจ้าของและเขียน/ยกเลิก"| N4
+  N4 -->|"id status และประวัติ"| N3
+  N0 -->|"D05 คำขอประวัติหรือยกเลิกพร้อม cookie"| N3
+  N3 -->|"ประวัติตนเอง หรือผลยกเลิก"| N0

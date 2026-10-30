@@ -1,0 +1,15 @@
+{
+  "title": "STILL Lodging Booking",
+  "repo": "lodging-booking-system",
+  "slug": "booking",
+  "head": "3f169eece63f9a70260132736e87aa0a04db773e",
+  "document_version": "1.0",
+  "date": "2026-10-30",
+  "requirements": 10,
+  "diagrams": [
+    "context",
+    "data-flow",
+    "workflow",
+    "data-model"
+  ]
+}
